@@ -1,0 +1,20 @@
+---
+title: "Group 19 UCSB domestic grad enrollment"
+author: "Emily Pelstring, Chance English"
+date: "11/16/2021"
+output: html_document
+---
+
+## Set Up
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(here)
+library(tidyverse)
+```
+
+## Readhing in the Data 
+
+```{r}
+ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
+```
+
