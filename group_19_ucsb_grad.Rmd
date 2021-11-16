@@ -35,4 +35,6 @@ ucsb_grad %>%
 
 
 ```
+
+
 **Figure 1.** Figure 1. The percent contribution of racial/ethnic groups to the total domestic graduate school enrollment at UCSB each year from 2008-2019.data source: University of California, Santa Barbara Office of Budget and Planning
