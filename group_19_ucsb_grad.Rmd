@@ -30,10 +30,9 @@ ucsb_grad %>%
            position = "fill") +
   labs(x = "Year",
        y = "Proportion of Enrollment",
-       title = "UCSB Domestic Graduate Student Enrollment by Race/Ethnicity (2008-2019)",
-       caption = "Figure 1. The percent contribution of racial/ethnic groups\nto the total domestic graduate school enrollment at UCSB each year from 2008-2019.\ndata source: University of CA, Santa Barbara Office of Budget and Planning") +
-  theme_minimal()
+       title = "UCSB Domestic Graduate Student Enrollment by Race/Ethnicity (2008-2019)") +
+  theme_minimal(plot)
 
 
 ```
-
+**Figure 1.** Figure 1. The percent contribution of racial/ethnic groups to the total domestic graduate school enrollment at UCSB each year from 2008-2019.data source: University of California, Santa Barbara Office of Budget and Planning
