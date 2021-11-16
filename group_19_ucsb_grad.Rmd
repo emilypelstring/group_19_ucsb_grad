@@ -31,7 +31,7 @@ ucsb_grad %>%
   labs(x = "Year",
        y = "Proportion of Enrollment",
        title = "UCSB Domestic Graduate Student Enrollment by Race/Ethnicity (2008-2019)") +
-  theme_minimal(plot)
+  theme_minimal()
 
 
 ```
