@@ -6,13 +6,13 @@ output: html_document
 ---
 
 ## Set Up
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=TRUE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 library(here)
 library(tidyverse)
 ```
 
-## Readhing in the Data 
+## Reading in the Data 
 
 ```{r}
 ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
